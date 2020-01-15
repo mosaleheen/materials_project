@@ -1,0 +1,58 @@
+data_global
+_chemical_name_mineral 'Minium'
+loop_
+_publ_author_name
+'Gavarri J R'
+'Weigel D'
+_journal_name_full 'Journal of Solid State Chemistry'
+_journal_volume 13 
+_journal_year 1975
+_journal_page_first 252
+_journal_page_last 257
+_publ_section_title
+;
+ Oxydes de plomb. I. structure cristalline du minium Pb3O4, a temperature
+ ambiante (293 K)
+ Sample: T = 293 K
+;
+_database_code_amcsd 0013330
+_chemical_compound_source 'Synthetic'
+_chemical_formula_sum 'Pb3 O4'
+_chemical_formula_sum ''
+_cell_length_a 8.811
+_cell_length_b 8.811
+_cell_length_c 6.563
+_cell_angle_alpha 90
+_cell_angle_beta 90
+_cell_angle_gamma 90
+_cell_volume 509.510
+_exptl_crystal_density_diffrn      8.938
+_symmetry_space_group_name_H-M 'P 42/m b c'
+loop_
+_space_group_symop_operation_xyz
+  'x,y,z'
+  '1/2-y,1/2-x,1/2+z'
+  '1/2+y,1/2+x,1/2-z'
+  'y,-x,1/2-z'
+  '-y,x,1/2+z'
+  '1/2+x,1/2-y,z'
+  '1/2-x,1/2+y,-z'
+  'x,y,-z'
+  '-x,-y,z'
+  '1/2+y,1/2+x,1/2+z'
+  '1/2-y,1/2-x,1/2-z'
+  '-y,x,1/2-z'
+  'y,-x,1/2+z'
+  '1/2-x,1/2+y,z'
+  '1/2+x,1/2-y,-z'
+  '-x,-y,-z'
+loop_
+_atom_site_label
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+Pb4+   0.00000   0.50000   0.25000
+Pb2+   0.14000   0.16300   0.00000
+O1   0.67100   0.17100   0.25000
+O2   0.09600   0.63700   0.00000
+

@@ -1,0 +1,65 @@
+data_global
+_amcsd_formula_title 'In2 O3'
+loop_
+_publ_author_name
+'Zachariasen W'
+_journal_name_full 'Skrifter utgitt av det Norske Videnskaps-Akademi i Oslo'
+_journal_volume 1 
+_journal_year 1928
+_journal_page_first 1
+_journal_page_last 165
+_publ_section_title
+;
+ Untersuchungen ueber die Kristallstruktur von Sesquioxyden und
+ Verbindungen ABO3
+ _cod_database_code 1010588
+;
+_database_code_amcsd 0017469
+_chemical_formula_sum 'In2 O3'
+_chemical_formula_sum ''
+_cell_length_a 10.12
+_cell_length_b 10.12
+_cell_length_c 10.12
+_cell_angle_alpha 90
+_cell_angle_beta 90
+_cell_angle_gamma 90
+_cell_volume 1036.434
+_exptl_crystal_density_diffrn      7.117
+_symmetry_space_group_name_H-M 'I 21 3'
+loop_
+_space_group_symop_operation_xyz
+  'x,y,z'
+  '1/2+x,1/2+y,1/2+z'
+  '1/2-z,-x,1/2+y'
+  '-z,1/2-x,+y'
+  '-z,1/2+x,1/2-y'
+  '1/2-z,+x,-y'
+  '1/2+z,1/2-x,-y'
+  '+z,-x,1/2-y'
+  'z,x,y'
+  '1/2+z,1/2+x,1/2+y'
+  '1/2+y,1/2-z,-x'
+  '+y,-z,1/2-x'
+  '1/2-y,-z,1/2+x'
+  '-y,1/2-z,+x'
+  '-y,1/2+z,1/2-x'
+  '1/2-y,+z,-x'
+  'y,z,x'
+  '1/2+y,1/2+z,1/2+x'
+  '-x,1/2+y,1/2-z'
+  '1/2-x,+y,-z'
+  '1/2+x,1/2-y,-z'
+  '+x,-y,1/2-z'
+  '1/2-x,-y,1/2+z'
+  '-x,1/2-y,+z'
+loop_
+_atom_site_label
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+In1   0.25000   0.25000   0.25000
+In2   0.02100   0.00000   0.25000
+In3   0.54200   0.00000   0.25000
+O1   0.12500   0.12500   0.37500
+O2   0.12500   0.37500   0.37500
+
