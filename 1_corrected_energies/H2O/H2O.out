@@ -1,0 +1,41 @@
+Creating molecule from scratch
+--------------------
+VASP calculator parameters:
+pp: 'PBE'             Pseudopotential used.
+reciprocal: False     Projection operators evaluated in real space.
+setups: {'Ti': '_sv'} Different potentials used for different atoms.
+xc: 'PBE'             Exchange functional
+txt: '-'              No help entry found for parameter txt
+kpts: (1, 1, 1)       Number of k-points
+gamma: True           K point will be placed at the gamma point.
+lcharg: False         LCHARG will NOT be printed.
+lwave: False          LWAVE will NOT be printed.
+lvtot: False          Total loc potential will NOT be written to the LOCPOT file. [VASP Default]
+lplane: True          Data distribution in real space will be done plane wise. [VASP Default]
+isym: 0               Symmetry turned OFF. Assumes that φ_k = φ*_-k and reduces the sampling of the Brillouin zone respectively.
+ispin: 2              Spin polarized calculations.
+ismear: 0             Gaussian smearing
+istart: 0             Start job from scratch. Initialize wavefunction according to the flag INIWAV
+nelm: 400             Number of electronic steps (default 60)
+nfree: 2              Number of steps per DOF when calculating Hessian using finite differences.
+nsw: 1000             Number of steps for ionic updating.
+nelmdl: -10           Number of initial electronic steps
+ibrion: 2             Determines how ions are updated and moved. A conjugate gradient algorithm is used to relax the ions into their instantaneous groundstate.
+npar: 2               Parallelization over bands
+isif: 2               Force calculated. Stress tensor will be calculated. Ions will be related. No change in cell shape. No change in cell volume.
+ediff: 0.0001         Stopping-criterion for electronic SC-loop. Default = 1e-4
+ediffg: -0.05         Stopping-criterion for ionic SC-loop. Default = EDIFF * 10
+encut: 400            Planewave cutoff
+sigma: 0.1            Width of smearing in eV. Default= 0.2
+potim: 0.35           Time-step for ion-motion in fs
+magmom: [0, 0, 0]     No help entry found for parameter magmom
+ropt: [0.0002, 0.0002, 0.0002] No help entry found for parameter ropt
+lreal: 'auto'         Projection done in real space. Fully automatic optimization of projection operators. No user interference required.
+prec: 'high'          Default set of parameters used.
+gga: 'PE'             Type of GGA: Perdew-Burke-Erzenhof
+algo: 'fast'          Electronic minimization algorithm: The Blocked Davdison iteration scheme will be used for the initial phase followed by the RMM-DIIS
+--------------------
+LBFGS:   0  21:51:22      -14.219543       0.0254
+Completed energy optimization
+Energy: -14.219543
+Completed H2O.py
